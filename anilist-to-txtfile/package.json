@@ -1,0 +1,19 @@
+{
+  "name": "anilist-to-txtfile",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node -r ts-node/register ./main.ts"
+  },
+  "author": "Armster15",
+  "dependencies": {
+    "graphql-request": "^4.2.0",
+    "lodash": "^4.17.21",
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.181",
+    "@types/prompt-sync": "^4.1.1"
+  }
+}
