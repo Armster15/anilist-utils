@@ -227,4 +227,6 @@ const query = gql`
   });
 
   await fs.writeFile("gen.txt", txt);
+
+  console.log("Saved txt file to `gen.txt`!")
 })();
